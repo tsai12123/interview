@@ -1,0 +1,51 @@
+.frame{
+        display: flex;/*讓下一層水平排列*/
+}
+.left{
+        background-color: rgb(253, 251, 251);
+        flex: none;/*固定配置*/
+        width: 50%;
+}
+.right{
+        display: flex;/*讓下一層水平排列*/
+        justify-content: flex-end;/*讓下一層水平排列*/
+        background-color: rgb(249, 249, 253);
+        flex: auto;/*自動把剩下的填滿*/
+        
+}
+.content{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: cadetblue;
+    margin-bottom:10px;
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top:10px;
+    font-size: 20px;
+    width: 1000px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.title content{
+    border-top-style:solid; 
+    border-top-width:medium
+}
+
+
+.welcome{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;/*垂直對其*/
+    background-color: rgb(178, 181, 184);
+}
+.text{
+    width: 300px;height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
