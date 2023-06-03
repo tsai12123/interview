@@ -1,3 +1,6 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1685524581008-41012ab2f89c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80");
+}
 .frame{
         display: flex;/*讓下一層水平排列*/
 }
@@ -19,9 +22,13 @@
     font-weight: bold;
     background-color: cadetblue;
     margin-bottom:10px;
+    margin-top:-10px;
+    margin-left: 10px;
+    
 }
+
 .item{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 240, 208);
     text-align: center;
     margin-top:10px;
     font-size: 20px;
@@ -29,10 +36,19 @@
     height: 300px;
     border: 2px solid black;
     margin: 0 auto;
+    margin-bottom: 10px;
+    
 }
 .title content{
-    border-top-style:solid; 
-    border-top-width:medium
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top:10px;
+    font-size: 20px;
+    width: 1000px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-bottom:10px;
 }
 
 
@@ -44,8 +60,9 @@
     background-color: rgb(178, 181, 184);
 }
 .text{
-    width: 300px;height: 40px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(241, 240, 208);
+    font-size: 50px;
+    text-align:center
 }
